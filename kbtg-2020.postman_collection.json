@@ -19,7 +19,7 @@
 							"",
 							"pm.test(\"Your test name\", function () {",
 							"    var jsonData = pm.response.json();",
-							"    pm.expect(jsonData.id).to.eql(1);",
+							"    pm.expect(jsonData.id).to.eql(100);",
 							"    pm.expect(jsonData.age).to.eql(100);",
 							"    pm.expect(jsonData.name).to.eql(\"Somkiat for test\");",
 							"});",
@@ -58,7 +58,7 @@
 					"path": [
 						"v1",
 						"account",
-						"1"
+						"100"
 					]
 				}
 			},
